@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B站首页视频数据分析</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #555;
+            border-left: 5px solid #ccc;
+            padding-left: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>B站首页视频数据分析</h1>
+
+        <!-- 视频播放量数据分析部分 -->
+        <div class="section">
+            <h2>视频播放量数据分析</h2>
+            <img src="播放量分布.png" alt="播放量分布相关图表">
+        </div>
+
+        <!-- 视频封面图像分析部分 -->
+        <div class="section">
+            <h2>视频封面图像分析</h2>
+            <img src="亮度与对比度.png" alt="亮度和对比度分布图表">
+            <img src="人物与主色调.png" alt="封面人物比例和平均主色调图表">
+            <img src="视觉复杂度.png" alt="边缘密度和清晰度分布图表">
+            <img src="相关性.png" alt="亮度 vs 对比度散点图">
+        </div>
+    </div>
+</body>
+
+</html>
